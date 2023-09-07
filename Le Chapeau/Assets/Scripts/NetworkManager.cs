@@ -7,6 +7,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 {
     // instance
     public static NetworkManager instance;
+
     void Awake()
     {
         // if an instance already exists and it's not this one - destroy us
@@ -47,7 +48,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public override void OnConnectedToMaster()
     {
         Debug.Log("Connected to master server");
-        CreateRoom("testroom");
+        //CreateRoom("testroom");
     }
 
     public override void OnCreatedRoom()
