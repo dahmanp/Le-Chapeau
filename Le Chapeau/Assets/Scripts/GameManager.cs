@@ -101,10 +101,6 @@ public class GameManager : MonoBehaviourPunCallbacks
         PhotonNetwork.LeaveRoom();
         NetworkManager.instance.ChangeScene("Menu");
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
+
+
